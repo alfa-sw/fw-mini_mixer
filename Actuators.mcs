@@ -1,0 +1,175 @@
+[Header]
+MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
+Version=1.0
+[File000]
+Location=C:\PROGETTI\Alfa\repository\fw-mini_mixer\objs\init.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ32MC204
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|C:\PROGETTI\Alfa\repository\fw-mini_mixer\out||$(TMPDIR)|C:\PROGETTI\Alfa\repository\fw-mini_mixer\objs||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|init.c|main.c|interrupts.c|traps.c|input.c|timerMg.c|const.c|ram.c|serialCom.c|color.c|stepper.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -mlarge-code -mlarge-data -mlarge-scalar -mconst-in-code -Os
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File001]
+Location=C:\PROGETTI\Alfa\repository\fw-mini_mixer\objs\main.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ32MC204
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|C:\PROGETTI\Alfa\repository\fw-mini_mixer\out||$(TMPDIR)|C:\PROGETTI\Alfa\repository\fw-mini_mixer\objs||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|init.c|main.c|interrupts.c|traps.c|input.c|timerMg.c|const.c|ram.c|serialCom.c|color.c|stepper.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -mlarge-code -mlarge-data -mlarge-scalar -mconst-in-code -Os
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File002]
+Location=C:\PROGETTI\Alfa\repository\fw-mini_mixer\objs\interrupts.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ32MC204
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|C:\PROGETTI\Alfa\repository\fw-mini_mixer\out||$(TMPDIR)|C:\PROGETTI\Alfa\repository\fw-mini_mixer\objs||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|init.c|main.c|interrupts.c|traps.c|input.c|timerMg.c|const.c|ram.c|serialCom.c|color.c|stepper.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -mlarge-code -mlarge-data -mlarge-scalar -mconst-in-code -Os
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File003]
+Location=C:\PROGETTI\Alfa\repository\fw-mini_mixer\objs\traps.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ32MC204
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|C:\PROGETTI\Alfa\repository\fw-mini_mixer\out||$(TMPDIR)|C:\PROGETTI\Alfa\repository\fw-mini_mixer\objs||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|init.c|main.c|interrupts.c|traps.c|input.c|timerMg.c|const.c|ram.c|serialCom.c|color.c|stepper.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -mlarge-code -mlarge-data -mlarge-scalar -mconst-in-code -Os
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File004]
+Location=C:\PROGETTI\Alfa\repository\fw-mini_mixer\objs\input.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ32MC204
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|C:\PROGETTI\Alfa\repository\fw-mini_mixer\out||$(TMPDIR)|C:\PROGETTI\Alfa\repository\fw-mini_mixer\objs||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|init.c|main.c|interrupts.c|traps.c|input.c|timerMg.c|const.c|ram.c|serialCom.c|color.c|stepper.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -mlarge-code -mlarge-data -mlarge-scalar -mconst-in-code -Os
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File005]
+Location=C:\PROGETTI\Alfa\repository\fw-mini_mixer\objs\timerMg.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ32MC204
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|C:\PROGETTI\Alfa\repository\fw-mini_mixer\out||$(TMPDIR)|C:\PROGETTI\Alfa\repository\fw-mini_mixer\objs||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|init.c|main.c|interrupts.c|traps.c|input.c|timerMg.c|const.c|ram.c|serialCom.c|color.c|stepper.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -mlarge-code -mlarge-data -mlarge-scalar -mconst-in-code -Os
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File006]
+Location=C:\PROGETTI\Alfa\repository\fw-mini_mixer\objs\const.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ32MC204
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|C:\PROGETTI\Alfa\repository\fw-mini_mixer\out||$(TMPDIR)|C:\PROGETTI\Alfa\repository\fw-mini_mixer\objs||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|init.c|main.c|interrupts.c|traps.c|input.c|timerMg.c|const.c|ram.c|serialCom.c|color.c|stepper.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -mlarge-code -mlarge-data -mlarge-scalar -mconst-in-code -Os
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File007]
+Location=C:\PROGETTI\Alfa\repository\fw-mini_mixer\objs\ram.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ32MC204
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|C:\PROGETTI\Alfa\repository\fw-mini_mixer\out||$(TMPDIR)|C:\PROGETTI\Alfa\repository\fw-mini_mixer\objs||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|init.c|main.c|interrupts.c|traps.c|input.c|timerMg.c|const.c|ram.c|serialCom.c|color.c|stepper.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -mlarge-code -mlarge-data -mlarge-scalar -mconst-in-code -Os
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File008]
+Location=C:\PROGETTI\Alfa\repository\fw-mini_mixer\objs\serialCom.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ32MC204
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|C:\PROGETTI\Alfa\repository\fw-mini_mixer\out||$(TMPDIR)|C:\PROGETTI\Alfa\repository\fw-mini_mixer\objs||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|init.c|main.c|interrupts.c|traps.c|input.c|timerMg.c|const.c|ram.c|serialCom.c|color.c|stepper.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -mlarge-code -mlarge-data -mlarge-scalar -mconst-in-code -Os
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File009]
+Location=C:\PROGETTI\Alfa\repository\fw-mini_mixer\objs\color.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ32MC204
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|C:\PROGETTI\Alfa\repository\fw-mini_mixer\out||$(TMPDIR)|C:\PROGETTI\Alfa\repository\fw-mini_mixer\objs||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|init.c|main.c|interrupts.c|traps.c|input.c|timerMg.c|const.c|ram.c|serialCom.c|color.c|stepper.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -mlarge-code -mlarge-data -mlarge-scalar -mconst-in-code -Os
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File010]
+Location=C:\PROGETTI\Alfa\repository\fw-mini_mixer\objs\stepper.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ32MC204
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)|C:\PROGETTI\Alfa\repository\fw-mini_mixer\out||$(TMPDIR)|C:\PROGETTI\Alfa\repository\fw-mini_mixer\objs||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|init.c|main.c|interrupts.c|traps.c|input.c|timerMg.c|const.c|ram.c|serialCom.c|color.c|stepper.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-g -Wall -mlarge-code -mlarge-data -mlarge-scalar -mconst-in-code -Os
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File011]
+Location=C:\PROGETTI\Alfa\repository\fw-mini_mixer\out\Actuators.cof
+Folder=Output
+DeviceName=dsPIC33FJ32MC204
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={433C3D55-811D-409D-A6BF-159CF9355B42}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-ld.exe
+PPAD=$(BINDIR)|C:\PROGETTI\Alfa\repository\fw-mini_mixer\out||$(TMPDIR)|C:\PROGETTI\Alfa\repository\fw-mini_mixer\objs||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|init.c|main.c|interrupts.c|traps.c|input.c|timerMg.c|const.c|ram.c|serialCom.c|color.c|stepper.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-Map="$(BINDIR_)$(TARGETBASE).map" --report-mem -o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)"
+TraceCmdString=
+DebugOptions=--defsym=__MPLAB_DEBUG=1
+[File012]
+Location=C:\PROGETTI\Alfa\repository\fw-mini_mixer\out\Actuators.hex
+Folder=Output
+DeviceName=dsPIC33FJ32MC204
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={433C3D55-811D-409D-A6BF-159CF9355B42}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-ld.exe
+PPAD=$(BINDIR)|C:\PROGETTI\Alfa\repository\fw-mini_mixer\out||$(TMPDIR)|C:\PROGETTI\Alfa\repository\fw-mini_mixer\objs||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|init.c|main.c|interrupts.c|traps.c|input.c|timerMg.c|const.c|ram.c|serialCom.c|color.c|stepper.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-Map="$(BINDIR_)$(TARGETBASE).map" --report-mem -o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)"
+TraceCmdString=
+DebugOptions=--defsym=__MPLAB_DEBUG=1
+[TOOL_LOC_STAMPS]
+tool_loc{069BD372-6CA0-40D4-BF2F-5DC806D05083}=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+tool_loc{433C3D55-811D-409D-A6BF-159CF9355B42}=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-ld.exe
