@@ -21,14 +21,14 @@
 /*====== TIPI LOCALI ======================================================== */
 
 /*====== VARIABILI LOCALI =================================================== */
-static unsigned short MonTimeBase;
+static unsigned long MonTimeBase;
 
 /*====== VARIABILI GLOBALI =================================================== */
-unsigned short TimeBase;
+unsigned long TimeBase;
 
 timerstype TimStr[N_TIMERS];
 
-unsigned short Durata[N_TIMERS] = {
+unsigned long Durata[N_TIMERS] = {
   /*  1  */   DELAY_WAIT_SLAVE,
   /*  2  */   DELAY_FILTER_DIG_IN,
   /*  3  */   DELAY_RAMP_UP,
@@ -99,7 +99,7 @@ void TimerMg(void)
 }/*end TimerMg*/
 
 
-unsigned short ReadTimer (unsigned char timer)
+unsigned long ReadTimer (unsigned char timer)
 /*
 *//*=====================================================================*//**
 **
@@ -114,7 +114,7 @@ unsigned short ReadTimer (unsigned char timer)
 *//*=====================================================================*//**
 */
 {
-  unsigned short TimeTot;
-  TimeTot = (unsigned short)(TimeBase - TimStr[timer].InitBase);
+  unsigned long TimeTot;
+  TimeTot = (unsigned long)(TimeBase - TimStr[timer].InitBase);
   return (TimeTot);
 } /* end ReadTimer */

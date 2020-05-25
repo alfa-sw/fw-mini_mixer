@@ -84,14 +84,14 @@ enum{
 
 typedef struct {
   signed char Flg;
-  unsigned short InitBase;
+  unsigned long InitBase;
 } timerstype;
 
-extern unsigned short TimeBase;
+extern unsigned long TimeBase;
 extern timerstype TimStr[N_TIMERS];
-extern unsigned short Durata[N_TIMERS];
+extern unsigned long Durata[N_TIMERS];
 extern void TimerMg (void);
-extern unsigned short ReadTimer(unsigned char timer);
+extern unsigned long ReadTimer(unsigned char timer);
 //extern void StartTimer(unsigned char Timer);
 //extern signed char StatusTimer(unsigned char Timer);
 

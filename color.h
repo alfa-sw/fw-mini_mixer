@@ -18,7 +18,8 @@
 
 /*===== DICHIARAZIONI LOCALI ================================================*/
 /*===== DEFINE GENERICHE ====================================================*/
-#define SW_VERSION_COLOR 0x209401
+//#define SW_VERSION_COLOR 0x209401
+#define SW_VERSION_COLOR 0x010001
 
 #define DELTA_RIGHT_POS_0 -8
 #define NUM_STEP_PER_ML 28678L /*count*/
@@ -135,6 +136,11 @@ extern void initDC_Motor_Braking(void);
 #define STIRRING_TIME_40_SEC 40
 #define STIRRING_TIME_55_SEC 55
 #define STIRRING_TIME_85_SEC 85
+// Laboratory Times
+#define STIRRING_TIME_60_SEC 60
+#define STIRRING_TIME_120_SEC 120
+#define STIRRING_TIME_180_SEC 180
+#define STIRRING_TIME_240_SEC 240
 
   // valori inviati dalla SCCBrd per indicare lo stato
   enum

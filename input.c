@@ -489,6 +489,7 @@ static void GetSelStatus(void)
 {
   switch(SelStatus)
   {
+/*
   case CONF_TIME_SEL_0:
     color.stirringDuration = STIRRING_TIME_25_SEC;
     break;
@@ -500,6 +501,21 @@ static void GetSelStatus(void)
     break;
   case CONF_TIME_SEL_3:
     color.stirringDuration = STIRRING_TIME_85_SEC;
-    break; 
+    break;
+*/
+  // Version for Laboratory
+  case CONF_TIME_SEL_0:
+    color.stirringDuration = STIRRING_TIME_60_SEC;
+    break;
+  case CONF_TIME_SEL_1:
+    color.stirringDuration = STIRRING_TIME_120_SEC;
+    break;
+  case CONF_TIME_SEL_2:
+    color.stirringDuration = STIRRING_TIME_180_SEC;
+    break;
+  case CONF_TIME_SEL_3:
+    color.stirringDuration = STIRRING_TIME_240_SEC;
+    break;
+ 
   }  
 } /* end GetKeybStatus */
